@@ -118,7 +118,7 @@ function App() {
             </div>
           </div>
           <div className="hidden sm:flex items-center gap-2 text-xs text-slate-500">
-            <span className="px-2 py-1 bg-slate-800 rounded-md">S3 Ready</span>
+            {/* <span className="px-2 py-1 bg-slate-800 rounded-md">S3 Ready</span> */}
             <span className="px-2 py-1 bg-emerald-900/50 text-emerald-400 rounded-md">v1.0</span>
           </div>
         </div>
@@ -441,7 +441,7 @@ function App() {
       <footer className="border-t border-slate-800/80 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-slate-600">HomeLoan Calculator Pro — Prepayment Analysis Tool</p>
-          <p className="text-xs text-slate-600">Deploy on S3 | Static Site Ready</p>
+          {/* <p className="text-xs text-slate-600">Deploy on S3 | Static Site Ready</p> */}
         </div>
       </footer>
     </div>
